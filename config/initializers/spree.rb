@@ -7,9 +7,9 @@
 # config.setting_name = 'new value'
 Spree.config do |config|
   # Example:
-  # Uncomment to override the default site name.
-  # config.site_name = "Spree Demo Site"
-     config.logo ='store/logo.png'
+  # Uncomment to stop tracking inventory levels in the application
+  # config.track_inventory_levels = false
+  config.logo = 'spree/frontend/logo.png'
 end
 
 Spree.user_class = "Spree::User"
