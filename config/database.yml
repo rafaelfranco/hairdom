@@ -82,6 +82,7 @@ test:
 #
 production:
   <<: *default
-  database: hairdom_production
-  username: hairdom
-  password: <%= ENV['HAIRDOM_DATABASE_PASSWORD'] %>
+  host: ec2-54-235-99-22.compute-1.amazonaws.com
+  database: d2jclukbl83gii
+  username: jvuyxpjmkovrlw
+  password: immuQ58AjN2-w2EAipRjKUYOZ2
