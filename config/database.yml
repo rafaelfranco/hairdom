@@ -82,7 +82,7 @@ test:
 #
 production:
   <<: *default
-  host: ec2-54-235-99-22.compute-1.amazonaws.com
-  database: d2jclukbl83gii
-  username: jvuyxpjmkovrlw
-  password: immuQ58AjN2-w2EAipRjKUYOZ2
+  host: ec2-54-217-238-179.eu-west-1.compute.amazonaws.com
+  database: d441egodol0q2h
+  username: jqdbluiojcafrf
+  password: _XviCmDdcViMIzz06U3vg5SLHv
