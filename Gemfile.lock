@@ -20,6 +20,14 @@ GIT
       spree_core (~> 2.4.0)
 
 GIT
+  remote: git://github.com/spree-contrib/spree_mail_settings.git
+  revision: a450fe338358d7a88940c9bdece7bb03dc51e35b
+  branch: 2-4-stable
+  specs:
+    spree_mail_settings (2.2.0)
+      spree_backend (~> 2.4.0)
+
+GIT
   remote: git://github.com/spree-contrib/spree_static_content.git
   revision: 2455a91a2d940189979cb219790eb2063c371204
   branch: 2-4-stable
@@ -392,6 +400,7 @@ DEPENDENCIES
   spree_fancy!
   spree_gateway!
   spree_i18n!
+  spree_mail_settings!
   spree_paypal_express!
   spree_static_content!
   turbolinks
