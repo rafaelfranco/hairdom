@@ -11,3 +11,11 @@
  *= require spree/frontend/spree_static_content
  *= require spree/fancy
 */
+
+figure#logo img{
+  padding-top: 0;
+}
+
+nav #main-nav-bar{
+  border-bottom: 0px solid #d9d9db;
+}
