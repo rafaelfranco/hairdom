@@ -10,6 +10,7 @@ Spree.config do |config|
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
   config.logo = 'spree/frontend/logo.png'
+  config.currency = 'EUR'
 end
 
 Spree.user_class = "Spree::User"
