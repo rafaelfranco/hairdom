@@ -12,10 +12,32 @@
  *= require spree/fancy
 */
 
-figure#logo img{
+figure#logo img {
   padding-top: 0;
 }
 
-nav #main-nav-bar{
+nav #main-nav-bar {
   border-bottom: 0px solid #d9d9db;
+}
+
+ul#products li .product-image a {
+  border-color: #dfeefd;
+  border-width: 2px;
+  padding: 30px 22px 30px 20px;
+  float: none;
+  height: 180px;
+  width: 180px;
+}
+
+.product-row .container .three.columns {
+  width: 200px;
+}
+
+ul#products li .product-image a img {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  max-height: 100%;
 }
