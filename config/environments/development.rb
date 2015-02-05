@@ -6,7 +6,6 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
-  config.action_mailer.default_url_options = { :host => "hairdom.herokuapp.com" }
   # Do not eager load code on boot.
   config.eager_load = false
 
@@ -33,15 +32,6 @@ Rails.application.configure do
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
 
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    :authentication => :plain,
-    :address => "smtp.mailgun.org",
-    :port => 587,
-    :domain => "appd89dfcf7e4ae4c09b3f8674fc9cb71ce.mailgun.org",
-    :user_name => "postmaster@appd89dfcf7e4ae4c09b3f8674fc9cb71ce.mailgun.org",
-    :password => "7001ad2decab2d125ccb141ca61fadd1"
-  }
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end
