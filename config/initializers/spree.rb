@@ -9,8 +9,7 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
-  config.override_actionmailer_config = true
-  config.mails_from = "no-reply@hairdom.com"
+  
   config.logo = 'spree/frontend/logo.png'
   config.currency = 'EUR'
 end
